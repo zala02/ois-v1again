@@ -5,15 +5,16 @@ public class Gravitacija {
 
         System.out.println("OIS je zakon!");
 
-        /* Scanner scanner = new Scanner(System.in);
-        int visina = scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        double visina = scanner.nextDouble();
 
-        int C = 6.674 x 10 ^ -11;
-        int r = 6.371 x 10 ^ 6;
-        int a;
+        double C = 6.674e-11;
+        double M = 5.972e24;
+        double r = 6.371e24;
 
-        a = (C x M) / (r + visina)^2;
+        double a = (C * M) / Math.pow((r + visina), 2);
 
-        System.out.println(a); */
+        System.out.println(a);
+        System.out.println("kr neki");
     }
 }
